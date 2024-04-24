@@ -28,11 +28,9 @@ int esta_na_lista(celula* inicio, char* dado) {
 void ordenar_lista(celula** inicio) {
     celula *atual = *inicio, *indice = NULL;
     char temp[21];
-
     if (*inicio == NULL) {
         return;
     }
-
     while (atual != NULL) {
         indice = atual->prox;
 
@@ -62,14 +60,12 @@ void imprimir_lista(celula* inicio) {
 int main() {
     int N, i;
     scanf("%d", &N);
-    getchar(); // Consumir o newline após o número
-
+    getchar(); 
     for (i = 0; i < N; i++) {
         celula* lista = NULL;
         char entrada[21000];
         fgets(entrada, 21000, stdin); 
         entrada[strcspn(entrada, "\n")] = '\0'; 
-
         char* token = strtok(entrada, " ");
         while (token != NULL) {
             if (!esta_na_lista(lista, token)) {
@@ -77,11 +73,8 @@ int main() {
             }
             token = strtok(NULL, " ");
         }
-
         ordenar_lista(&lista);
         imprimir_lista(lista);
-
-        // Liberar memória da lista
         celula* atual = lista;
         while (atual != NULL) {
             celula* temp = atual;
