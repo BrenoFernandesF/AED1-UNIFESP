@@ -1,3 +1,4 @@
+/* A função main recebe um número N e N frases e retorna o idioma inglês se houver mais de um idioma ou o idioma falado por todos*/
 #include <stdio.h>
 #include <string.h>
 
