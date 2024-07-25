@@ -1,3 +1,4 @@
+/*A função main recebe um tempo em segundos e retorna o tempo em horas, minutos e segundos*/
 #include <stdio.h>
 
 int main () {
