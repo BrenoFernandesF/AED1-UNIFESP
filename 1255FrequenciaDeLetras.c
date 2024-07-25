@@ -1,3 +1,5 @@
+/* A função main recebe um número N e N frases e retorna a letra que mais aparece em cada frase */
+
 #include <stdio.h>
 #include <ctype.h>
 #include <string.h>
