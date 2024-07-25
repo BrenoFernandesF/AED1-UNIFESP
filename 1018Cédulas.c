@@ -1,5 +1,4 @@
-/**/
-
+/*A função main recebe um valor em Real e retorna a quantidade de notas de 50, 20, 10, 5, 2 e 1 necessárias para compor o valor*/
 #include <stdio.h>
 
 int main() {
