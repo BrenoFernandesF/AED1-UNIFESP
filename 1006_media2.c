@@ -1,3 +1,4 @@
+/*A função main recebe 3 números decimais e retorna a média ponderada desses números*/
 #include <stdio.h>
 
 int main() {
