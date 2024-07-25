@@ -1,3 +1,5 @@
+/*A função main recebe a quantidade de números a serem lidos e retorna a quantidade de leds necessários para escrever o número*/
+
 #include <stdio.h>
 #include <string.h>
 
