@@ -1,3 +1,4 @@
+/*A função main recebe dois inteiros e retorna a soma desses números*/
 #include <stdio.h>
  
 int main() {
