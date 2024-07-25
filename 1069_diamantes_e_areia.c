@@ -6,7 +6,7 @@ typedef struct celula {
     struct celula* seg;
 } celula;
 
-// A função insere um caractere c em uma lista encadeada entre a celula p e p->seg
+// A função insere um caractere c em uma lista encadeada entre a celula p e p->seg 
 void insere (char c, celula *p) {
     celula *nova = (celula*)malloc(sizeof(celula));
     nova->c = c;
