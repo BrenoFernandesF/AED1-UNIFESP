@@ -22,6 +22,5 @@ int main() {
         int resultado = arredondar_por_corte(num, cutoff);
         printf("%d\n", resultado);
     }
-
     return 0;
 }
